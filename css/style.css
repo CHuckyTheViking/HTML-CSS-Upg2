@@ -1,0 +1,57 @@
+body {
+  background-image: url(../../images/Backgroundimage.jpg);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+}
+
+#signIn {
+  position: absolute;
+  justify-content: center;
+  top: 40%;
+}
+
+#signIn #signInForm {
+  padding: 1rem;
+}
+
+#signIn #signInForm input {
+  margin-top: .3rem;
+  padding: .2rem;
+  border-radius: 5px;
+}
+
+#signIn #signInForm a {
+  margin-top: .3rem;
+}
+
+#signUp {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+#signUp h2 {
+  margin-top: 1rem;
+}
+
+#signUp a {
+  margin-top: 1rem;
+}
+
+#signUp #emailRegister {
+  margin-bottom: .8rem;
+}
+
+#signUp input {
+  margin: .1rem;
+  border-radius: 5px;
+}
+
+#signUp #gdpr {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+#signUp #gdpr a {
+  font-weight: 600;
+}

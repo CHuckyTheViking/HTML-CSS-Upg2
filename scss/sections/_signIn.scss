@@ -1,0 +1,32 @@
+body {
+    background-image: url(../../images/Backgroundimage.jpg);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+}
+
+#signIn {
+    position: absolute;
+    justify-content: center;
+    top: 40%;
+
+
+    #signInForm {
+        padding: 1rem;
+    }
+    #signInForm input {
+        margin-top: .3rem;
+        padding: .2rem;
+        // width: 140%;
+        border-radius: 5px;
+    }
+    #signInForm a {
+        margin-top: .3rem;
+    }
+}
+
+
+
+
+
+
+

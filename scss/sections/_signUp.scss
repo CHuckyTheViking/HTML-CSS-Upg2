@@ -1,0 +1,34 @@
+
+
+#signUp {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+
+    h2 {
+        margin-top: 1rem;
+    }
+    
+    a {
+        margin-top: 1rem;
+    }
+
+    #emailRegister {
+        margin-bottom: .8rem;
+    }
+    input {
+        margin: .1rem;
+        border-radius: 5px;
+    }
+
+    #gdpr {
+        margin-top: 1.5rem;
+        margin-bottom: .5rem;
+
+        a {
+            font-weight: 600;
+        }
+    }
+    
+}
+
