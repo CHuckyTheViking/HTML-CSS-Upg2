@@ -1,37 +1,63 @@
-body {
-  background-image: url(../../images/Backgroundimage.jpg);
-  background-position: center 10%;
-  background-repeat: no-repeat;
-}
-
-#signIn {
-  position: absolute;
-  justify-content: center;
-  top: 40%;
-}
-
 #signIn #signInForm {
-  padding: 1rem;
+  position: absolute;
+  top: 40%;
 }
 
 #signIn #signInForm input {
   margin-top: .3rem;
-  padding: .2rem;
+  padding: .4rem;
   border-radius: 5px;
 }
 
 #signIn #signInForm a {
-  margin-top: .3rem;
+  margin-top: .5rem;
+  margin-left: .3rem;
+  width: 50%;
+}
+
+#signIn #signInForm #signIn-btn {
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  #signIn #signInForm input {
+    width: 60%;
+    margin-right: .3rem;
+  }
+  #signIn #signInForm #signInPassword {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  #signIn #signInForm {
+    top: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #signIn #signInForm input {
+    width: 30%;
+  }
+  #signIn #signInForm #signInPassword {
+    width: 20%;
+  }
 }
 
 #signUp {
   position: absolute;
   z-index: 2;
   text-align: center;
+  margin-top: 2rem;
 }
 
 #signUp h2 {
-  margin-top: 1rem;
+  margin-top: .5rem;
+}
+
+#signUp .short-border {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 1.5rem;
 }
 
 #signUp a {
@@ -44,14 +70,98 @@ body {
 
 #signUp input {
   margin: .1rem;
+  padding: .2rem;
   border-radius: 5px;
 }
 
-#signUp #gdpr {
-  margin-top: 1.5rem;
+#signUp #gdpr-box {
+  margin-top: 2rem;
   margin-bottom: .5rem;
 }
 
-#signUp #gdpr a {
+#signUp #gdpr-box a {
   font-weight: 600;
+}
+
+#signUp #news-box label {
+  color: black;
+  font-weight: 600;
+}
+
+#signUp #register-btn {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  #signUp {
+    position: relative;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  #signUp .signUpForm {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  #signUp .signUpForm input {
+    padding: .5rem;
+  }
+  #signUp .signUpForm div h2 {
+    margin-top: 2rem;
+    margin-bottom: .6rem;
+  }
+  #signUp .signUpForm:first-child {
+    margin-top: 4rem;
+  }
+  #signUp .signUpForm #gdpr-box {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+  }
+  #signUp .signUpForm #news-box {
+    font-size: 1.4rem;
+  }
+  #signUp .signUpForm #register-btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #signUp {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  #signUp .signUpForm {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #signUp .signUpForm #gdpr-box {
+    margin-top: 2.5rem;
+  }
+  #signUp .signUpForm #register-btn {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #signUp {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  #signUp .signUpForm {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #signUp .signUpForm #gdpr-box {
+    margin-top: 2rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../images/Backgroundimage.jpg);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }

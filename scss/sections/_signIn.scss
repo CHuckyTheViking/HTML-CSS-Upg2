@@ -1,32 +1,68 @@
-body {
-    background-image: url(../../images/Backgroundimage.jpg);
-    background-position: center 10%;
-    background-repeat: no-repeat;
-}
+
 
 #signIn {
-    position: absolute;
-    justify-content: center;
-    top: 40%;
-
-
     #signInForm {
-        padding: 1rem;
-    }
-    #signInForm input {
-        margin-top: .3rem;
-        padding: .2rem;
-        // width: 140%;
-        border-radius: 5px;
-    }
-    #signInForm a {
-        margin-top: .3rem;
+        position: absolute;
+        top: 40%;
+
+        input {
+            margin-top: .3rem;
+            padding: .4rem;
+            border-radius: 5px;
+        }
+
+        a {
+            margin-top: .5rem;
+            margin-left: .3rem;
+            width: 50%;
+        }
+
+        #signIn-btn {
+            margin: 1rem 0;
+        }
     }
 }
 
 
+@media (min-width: 768px) { 
+    #signIn {
+        #signInForm {
+
+            input {
+                width: 60%;
+                margin-right: .3rem;
+            }
+
+            #signInPassword {
+                width: 30%;
+            }       
+        }
+    }
+}
 
 
+@media (min-width: 992px) {
+    #signIn {
+
+        #signInForm {
+            top: 35%;
+        }
+    }
+}
 
 
+@media (min-width: 1200px) { 
+    #signIn {
+        
+        #signInForm{
 
+            input {
+                width: 30%;
+            }
+
+            #signInPassword {
+                width: 20%;
+            }
+        }
+    }
+}
